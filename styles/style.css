@@ -30,6 +30,7 @@ main .sec1 h1 {
   width: 400px;
   font-weight: 700;
   color: hsl(243, 87%, 12%);
+  font-size: 25px;
 }
 main .sec1 p {
   width: 510px;
@@ -61,4 +62,44 @@ main .sec1 .btn:hover {
 main div img {
   width: 610px;
   height: 410px;
+}
+
+.sec2 {
+  background-image: url(../images/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+.sec2 h2 {
+  color: hsl(243, 87%, 12%);
+  padding: 50px;
+  font-size: 25px;
+}
+.sec2 .container-card {
+  display: flex;
+  justify-content: space-between;
+}
+.sec2 .container-card .text1 {
+  width: 560px;
+  font-size: 17px;
+  font-weight: 600;
+  padding-left: 50px;
+  margin-top: -40px;
+  color: hsl(208, 25%, 29%);
+}
+.sec2 .container-card .text2 {
+  width: 570px;
+  font-size: 17px;
+  font-weight: 600;
+  padding-left: 50px;
+  padding-top: 10px;
+  color: hsl(208, 25%, 29%);
+}
+.sec2 .container-card img {
+  width: 610px;
+  height: 410px;
+}
+.sec2 .container-card .container-img {
+  padding: 40px;
+  margin-top: -80px;
 }/*# sourceMappingURL=style.css.map */
