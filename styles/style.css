@@ -57,8 +57,4 @@ main .sec1 .btn {
 }
 main .sec1 .btn:hover {
   background-color: hsl(224, 47%, 45%);
-}
-main .sec2 img {
-  width: 600px;
-  height: 400px;
 }/*# sourceMappingURL=style.css.map */
