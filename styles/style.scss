@@ -1,7 +1,7 @@
-
 @import './colors';
 
-html, body {
+html,
+body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -13,24 +13,25 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  padding: 45px;
+  padding: 50px;
 
   nav {
-    a{ 
-     margin: 10px;
+    a {
+      margin: 10px;
 
-     font-weight: 600;
-     text-align: right;
-     text-decoration: none;
-     color: $terciary-dark-color;
+      font-weight: 600;
+      text-align: right;
+      text-decoration: none;
+      color: $terciary-dark-color;
     }
   }
 }
 
 main {
   display: flex;
-  .sec1 {
-  padding: 50px;
+
+  .section1 {
+    padding: 50px;
 
     h1 {
       width: 400px;
@@ -38,11 +39,13 @@ main {
       color: $primary-color;
       font-size: 25px;
     }
+
     p {
       width: 510px;
       font-weight: 600;
       color: $primary-color;
     }
+
     .input {
       width: 300px;
       height: 34px;
@@ -51,6 +54,7 @@ main {
 
       padding-left: 14px;
     }
+
     .btn {
       width: 200px;
       height: 40px;
@@ -71,8 +75,61 @@ main {
 
   div {
     img {
-      width: 610px;
+      width: 580px;
       height: 410px;
+    }
+  }
+}
+
+
+.section2 {
+  background-image: url(../images/bg-curve-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateX(40%, 10%);
+  margin-top: 50px;
+
+  h2 {
+    color: $primary-color;
+    font-size: 25px;
+    padding-left: 30px;
+  }
+
+  .container-all {
+    background-color: $primary-light-color;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+
+    .container-text {
+      display: flex;
+      flex-direction: column;
+      padding-left: 40px;
+      width: 530px;
+
+      margin-top: 80px;
+      margin-right: 50px;
+
+      .text1 {
+        color: $terciary-dark-color;
+        margin-bottom: 20px;
+        font-weight: 600;
+        line-height: 27px;
+      }
+
+      .text2 {
+        color: $terciary-dark-color;
+        font-weight: 600;
+        line-height: 27px;
+      }
+    }
+
+    div {
+      img {
+        width: 600px;
+        height: 400px;
+        padding: 20px;
+      }
     }
   }
 }
