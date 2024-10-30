@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -10,7 +11,7 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  padding: 45px;
+  padding: 50px;
 }
 header nav a {
   margin: 10px;
@@ -23,28 +24,28 @@ header nav a {
 main {
   display: flex;
 }
-main .sec1 {
+main .section1 {
   padding: 50px;
 }
-main .sec1 h1 {
+main .section1 h1 {
   width: 400px;
   font-weight: 700;
   color: hsl(243, 87%, 12%);
   font-size: 25px;
 }
-main .sec1 p {
+main .section1 p {
   width: 510px;
   font-weight: 600;
   color: hsl(243, 87%, 12%);
 }
-main .sec1 .input {
+main .section1 .input {
   width: 300px;
   height: 34px;
   margin-right: 12px;
   margin-top: 20px;
   padding-left: 14px;
 }
-main .sec1 .btn {
+main .section1 .btn {
   width: 200px;
   height: 40px;
   cursor: pointer;
@@ -56,10 +57,53 @@ main .sec1 .btn {
   font-size: 14px;
   transition: 0.7s ease-in-out;
 }
-main .sec1 .btn:hover {
+main .section1 .btn:hover {
   background-color: hsl(224, 47%, 45%);
 }
 main div img {
-  width: 610px;
+  width: 580px;
   height: 410px;
+}
+
+.section2 {
+  background-image: url(../images/bg-curve-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateX(40%, 10%);
+  margin-top: 50px;
+}
+.section2 h2 {
+  color: hsl(243, 87%, 12%);
+  font-size: 25px;
+  padding-left: 30px;
+}
+.section2 .container-all {
+  background-color: hsl(240, 75%, 98%);
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+.section2 .container-all .container-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  width: 530px;
+  margin-top: 80px;
+  margin-right: 50px;
+}
+.section2 .container-all .container-text .text1 {
+  color: hsl(208, 25%, 29%);
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.section2 .container-all .container-text .text2 {
+  color: hsl(208, 25%, 29%);
+  font-weight: 600;
+  line-height: 27px;
+}
+.section2 .container-all div img {
+  width: 600px;
+  height: 400px;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
