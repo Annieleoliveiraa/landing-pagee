@@ -86,20 +86,20 @@ main {
   background-image: url(../images/bg-curve-desktop.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  transform: translateX(40%, 10%);
   margin-top: 50px;
 
   h2 {
     color: $primary-color;
     font-size: 25px;
-    padding-left: 30px;
+    padding-left: 45px;
+    padding-top: 50px;
   }
 
   .container-all {
     background-color: $primary-light-color;
     display: flex;
     justify-content: space-between;
-    height: 500px;
+    height: 700px;
 
     .container-text {
       display: flex;
@@ -107,7 +107,7 @@ main {
       padding-left: 40px;
       width: 530px;
 
-      margin-top: 80px;
+      margin-top: 12px;
       margin-right: 50px;
 
       .text1 {
@@ -121,6 +121,80 @@ main {
         color: $terciary-dark-color;
         font-weight: 600;
         line-height: 27px;
+      }
+
+      .texto3 {
+        color: $dark-color;
+        font-weight: 600;
+        font-size: 19px;
+        display: flex;
+        align-items: center;
+        margin-top: -14px;
+        border-bottom: 1px solid $dark-color;
+
+        .img-arow {
+          width: 22px;
+          height: 22px;
+          margin-top: 4px;
+          margin-left: -15px;
+        }
+
+        p {
+          border-bottom: 1px solid $dark-color;
+          width: 50px;
+        }
+      }
+
+      .box-info {
+        background-color: $color-one;
+        width: 410px;
+        height: 220px;
+        word-spacing: 2px;
+        border-radius: 4px;
+        padding: 25px;
+
+
+        p {
+          color: $primary-color;
+          font-weight: 600;
+          margin-top: 20px;
+
+          .img-citacao {
+            width: 15px;
+            height: 15px;
+            margin-top: -25px;
+            padding-bottom: 20px;
+          }
+        }
+
+        .card-informacao {
+          display: flex;
+
+          img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-top: 12px;
+          }
+
+          .card-names {
+            margin-left: -12px;
+
+            .text-info1 {
+              margin-top: 35px;
+              font-size: 16px;
+              font-weight: 700;
+            }
+
+            .text-info2 {
+              margin-top: -12px;
+              font-size: 12px;
+              font-weight: 400;
+            }
+          }
+        }
+
+
       }
     }
 
