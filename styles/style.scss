@@ -87,6 +87,7 @@ main {
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 50px;
+  height: 740px;
 
   h2 {
     color: $primary-color;
@@ -99,7 +100,7 @@ main {
     background-color: $primary-light-color;
     display: flex;
     justify-content: space-between;
-    height: 700px;
+    height: 740px;
 
     .container-text {
       display: flex;
@@ -206,4 +207,83 @@ main {
       }
     }
   }
+}
+
+
+.section3 {
+  width: 100%;
+  height: 45vh;
+
+  background-color: $secondary-color;
+
+  h2 {
+    color: $color-one;
+
+    padding-left: 2px;
+    padding-top: 20px;
+
+    font-size: 27px;
+  }
+
+  .card-all {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+
+    .card-1 {
+      width: 450px;
+
+      p {
+        color: $color-one;
+        font-weight: 500;
+        word-spacing: 2px;
+        line-height: 25px;
+
+        margin-top: 10px;
+      }
+    }
+
+    .card-2 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+  
+
+      input {
+        width: 450px;
+        height: 45px;
+        margin-bottom: 16px;
+        padding-left: 14px;
+        border-radius: 4px;
+        border: none;
+
+        box-shadow: 1px 1px black;
+      }
+
+      button {
+        width: 250px;
+        height: 45px;
+
+        border-radius: 4px;
+        border: none;
+
+        background-color: $terciary-color;
+        color: $color-one;
+
+        font-size: 14px;
+        font-weight: 600;
+
+        cursor: pointer;
+        transition: 0.7s ease-in-out;
+
+        &:hover {
+          background-color: $color-color;
+        }
+      }
+    }
+  }
+
+
+  
 }
