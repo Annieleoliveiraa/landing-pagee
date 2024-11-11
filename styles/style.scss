@@ -282,8 +282,54 @@ main {
         }
       }
     }
+  } 
+}
+
+
+footer {
+ background-color: $primary-color;
+ height: 60vh;
+
+  .box-footer1 {
+    img {
+      padding-top: 60px;
+      padding-left: 40px;
+    }
+
+    .card-info1 {
+      display: flex;
+      align-items: center;
+
+      img {
+       width: 20px;
+       height: 20px;
+      }
+    }
+
+    .text-tel {
+      color: $color-one;
+      font-weight: 500;
+      padding-left: 20px;
+      padding-top: 28px;
+    }
+
+    .text-email {
+      color: $color-one;
+      font-weight: 500;
+      padding-left: 20px;
+      padding-top: 28px;
+      margin-top: -10px;
+    }
+
+    .card-info2 {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 25px;
+        height: 20px;
+        margin-top: -28px;
+      }
+    }
   }
-
-
-  
 }

@@ -223,4 +223,43 @@ main div img {
 }
 .section3 .card-all .card-2 button:hover {
   background-color: hsl(239, 55%, 63%);
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+  height: 60vh;
+}
+footer .box-footer1 img {
+  padding-top: 60px;
+  padding-left: 40px;
+}
+footer .box-footer1 .card-info1 {
+  display: flex;
+  align-items: center;
+}
+footer .box-footer1 .card-info1 img {
+  width: 20px;
+  height: 20px;
+}
+footer .box-footer1 .text-tel {
+  color: #FFFFFF;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-top: 28px;
+}
+footer .box-footer1 .text-email {
+  color: #FFFFFF;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-top: 28px;
+  margin-top: -10px;
+}
+footer .box-footer1 .card-info2 {
+  display: flex;
+  align-items: center;
+}
+footer .box-footer1 .card-info2 img {
+  width: 25px;
+  height: 20px;
+  margin-top: -28px;
 }/*# sourceMappingURL=style.css.map */
