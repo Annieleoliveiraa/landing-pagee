@@ -30,6 +30,7 @@ header {
 
 main {
   display: flex;
+  width: 1340px;
 
   .section1 {
     padding: 50px;
@@ -89,6 +90,7 @@ main {
   background-repeat: no-repeat;
   margin-top: 50px;
   height: 740px;
+  width: 1340px;
 
   h2 {
     color: $primary-color;
@@ -212,8 +214,9 @@ main {
 
 
 .section3 {
-  width: 100%;
+  
   height: 45vh;
+  width: 1349px;
 
   background-color: $secondary-color;
 
@@ -290,6 +293,7 @@ main {
 footer {
  background-color: $primary-color;
  min-height: 50vh;
+ width: 1349px;
 
   .box-footer1 {
    padding-top: 60px;
@@ -353,7 +357,19 @@ footer {
       }
     }
 
-    
+    .box-4 {
+      display: flex;
+      gap: 12px;
+      margin-left: 1050px;
+      margin-top: -100px;
+
+      .bx{
+        color: $color-one;
+        border: 1px solid $color-one;
+        padding: 4px;
+        border-radius: 30px;
+      }
+    }
    }
   }
 }
