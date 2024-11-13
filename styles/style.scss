@@ -133,19 +133,14 @@ main {
         font-size: 19px;
         display: flex;
         align-items: center;
-        margin-top: -14px;
-        border-bottom: 1px solid $dark-color;
+        margin-top: -30px;
+        border-bottom: 2px solid $dark-color;
 
         .img-arow {
           width: 22px;
           height: 22px;
-          margin-top: 4px;
-          margin-left: -15px;
-        }
-
-        p {
-          border-bottom: 1px solid $dark-color;
-          width: 50px;
+          margin-left: 4px;
+          margin-top: 42px;
         }
       }
 
@@ -206,7 +201,7 @@ main {
       img {
         width: 600px;
         height: 400px;
-        padding: 20px;
+        margin: 40px;
       }
     }
   }
@@ -214,18 +209,15 @@ main {
 
 
 .section3 {
-  
-  height: 45vh;
   width: 1349px;
+  height: 50vh;
 
   background-color: $secondary-color;
 
   h2 {
     color: $color-one;
-
-    padding-left: 2px;
-    padding-top: 20px;
-
+    padding-left: 42px;
+    padding-top: 70px;
     font-size: 27px;
   }
 
@@ -237,6 +229,7 @@ main {
 
     .card-1 {
       width: 450px;
+      padding-right: 235px;
 
       p {
         color: $color-one;
@@ -244,14 +237,15 @@ main {
         word-spacing: 2px;
         line-height: 25px;
 
-        margin-top: 10px;
+        margin-top: -10px;
       }
     }
 
     .card-2 {
       display: flex;
       flex-direction: column;
-      margin-top: 50px;
+      margin-top: -40px;
+      padding-right: 30px;
   
 
       input {
