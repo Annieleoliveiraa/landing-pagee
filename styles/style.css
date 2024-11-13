@@ -122,32 +122,42 @@ main div img {
   margin-top: 42px;
 }
 .section2 .container-all .container-text .box-info {
+  display: flex;
+  flex-direction: column;
   background-color: #FFFFFF;
   width: 410px;
-  height: 220px;
+  height: 230px;
   word-spacing: 2px;
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 25px;
 }
 .section2 .container-all .container-text .box-info p {
   color: hsl(243, 87%, 12%);
-  font-weight: 600;
-  margin-top: 20px;
+  font-weight: 500;
+  margin-top: -10px;
 }
 .section2 .container-all .container-text .box-info p .img-citacao {
-  width: 15px;
-  height: 15px;
-  margin-top: -25px;
-  padding-bottom: 20px;
+  width: 22px;
+  height: 22px;
+  margin-top: 5px;
+  margin-left: -1px;
+}
+.section2 .container-all .container-text .box-info .text-box {
+  width: 360px;
+  line-height: 27px;
+  margin-top: -39px;
+  letter-spacing: 1px;
 }
 .section2 .container-all .container-text .box-info .card-informacao {
   display: flex;
+  margin-left: -40px;
+  margin-top: -15px;
 }
 .section2 .container-all .container-text .box-info .card-informacao img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin-top: 12px;
+  margin-top: 30px;
 }
 .section2 .container-all .container-text .box-info .card-informacao .card-names {
   margin-left: -12px;
