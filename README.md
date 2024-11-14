@@ -1,3 +1,3 @@
-# Readme do projeto # 
+# Readme do projeto #
 
-Esse é o Readme de apresentação do projeto Landing Page. 
+Esse é o Readme de apresentação do projeto Landing Page!
