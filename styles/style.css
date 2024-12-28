@@ -113,13 +113,18 @@ main div img {
   display: flex;
   align-items: center;
   margin-top: -30px;
-  border-bottom: 2px solid hsl(170, 45%, 43%);
 }
 .section2 .container-all .container-text .texto3 .img-arow {
   width: 22px;
   height: 22px;
   margin-left: 4px;
   margin-top: 42px;
+}
+.section2 .container-all .container-text .card-line {
+  width: 40%;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  margin-bottom: 45px;
+  margin-top: -52px;
 }
 .section2 .container-all .container-text .box-info {
   display: flex;
