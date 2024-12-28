@@ -134,7 +134,7 @@ main {
         display: flex;
         align-items: center;
         margin-top: -30px;
-        border-bottom: 2px solid $dark-color;
+       
 
         .img-arow {
           width: 22px;
@@ -142,6 +142,13 @@ main {
           margin-left: 4px;
           margin-top: 42px;
         }
+      }
+
+      .card-line {
+        width: 40%;
+        border-bottom: 1px solid $dark-color;
+        margin-bottom: 45px;
+        margin-top: -52px;
       }
 
       .box-info {
