@@ -355,9 +355,14 @@ footer {
       margin-top: -110px;
   
       .card-footer {
+
         p {
           color: $color-one;
-          
+          transition: all 300ms ease-out;
+          cursor: pointer;
+        }
+        p:hover {
+          color: $color-color;
         }
       }
     }
@@ -365,8 +370,14 @@ footer {
     .card-4 {
       padding-left: 800px;
       margin-top: -150px;
+
       p {
         color: $color-one;
+        transition: all 300ms ease-out;
+        cursor: pointer;
+      }
+      p:hover {
+        color: $color-color;
       }
     }
 
@@ -376,11 +387,43 @@ footer {
       margin-left: 1050px;
       margin-top: -100px;
 
+     
+
       .bx{
+        width: 30px;
+        height: 30px;
         color: $color-one;
         border: 1px solid $color-one;
         padding: 4px;
-        border-radius: 30px;
+        border-radius: 50%;
+
+        font-size: 28px;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .bxl-facebook {
+        cursor: pointer;
+        transition: all 400ms ease-out;
+      }
+      .bxl-facebook:hover {
+        background-color: $color-color;
+      }
+
+      .bxl-twitter {
+        cursor: pointer;
+        transition: all 400ms ease-out;
+      }
+      .bxl-twitter:hover {
+        background-color: $color-color;
+      }
+
+      .bxl-instagram {
+        cursor: pointer;
+        transition: all 400ms ease-out;
+      }
+      .bxl-instagram:hover {
+        background-color: $color-color;
       }
     }
    }
