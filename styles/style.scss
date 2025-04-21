@@ -128,20 +128,30 @@ main {
         line-height: 27px;
       }
 
-      .texto3 {
-        color: $dark-color;
-        font-weight: 600;
-        font-size: 19px;
-        display: flex;
-        align-items: center;
-        margin-top: -30px;
+     
        
 
-        .img-arow {
-          width: 22px;
-          height: 22px;
-          margin-left: 4px;
-          margin-top: 42px;
+        .card-text-green {
+          display: flex;
+
+          .img-arow {
+            width: 20px;
+            height: 20px;
+
+            margin-left: 5px;
+            margin-top: 10px;
+            
+            padding-bottom: 18px;
+          }
+
+          .texto3 {
+            color: $dark-color;
+            font-weight: 600;
+            font-size: 19px;
+            display: flex;
+            align-items: center;
+            margin-top: -30px;
+
         }
       }
 
