@@ -1,0 +1,3 @@
+
+Esse é um arquivo para a apresentação do Projeto Laning Page. Projeto criado para aprender
+a programar com as tecnologias mais básicas para o desenvolvimento web. 
