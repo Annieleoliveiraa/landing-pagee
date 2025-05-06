@@ -1,6 +1,0 @@
-
-Adicionando a guia 2 para poder aprender sobre como fazer as melhores práticas de programação
-e como poder aplicar. 
-
-Essa guia está sendo cirada para poder fazer alguns testes e para aprender a fazer alguns pushes
-no github. Vamos aprender mais sobre essas tecnologias. 
