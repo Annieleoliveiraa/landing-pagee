@@ -106,7 +106,8 @@ header nav a {
 
 main {
   display: flex;
-  width: 1340px;
+  width: 100%;
+  /* width: 1340px; */
 }
 main .section1 {
   padding: 50px;
