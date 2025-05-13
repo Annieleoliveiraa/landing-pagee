@@ -440,3 +440,91 @@ footer {
    }
   }
 }
+
+
+// MEDIA QUERY - RESPONSIVIDADE // 
+
+@media (max-width: 375px) {
+  body {
+    display: flex;
+    flex-direction: column; 
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 20px 0 20px;
+  }
+  header {
+
+    img {
+      width: 65px;
+      height: 20px;
+    }
+  }
+
+  nav {
+     
+    a {
+      font-size: 13px;
+    }
+  }
+
+
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+
+    justify-content: center;
+    align-items: center; 
+
+    .section1 {
+      width: 300px;
+
+
+      h1 {
+        width: 300px;
+        text-align: center;
+
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      p {
+        text-align: center;
+        width: 280px;
+
+        margin: 0 10px 0 10px;
+        font-size: 14px;
+      }
+
+      .input {
+        width: 240px;
+        height: 42px;
+
+        margin-bottom: 20px;
+
+        margin-left: 19px;
+      }
+
+      .btn {
+        width: 262px;
+        height: 40px;
+
+        margin-left: 18px;
+
+        border-radius: 5px;
+      }
+    }
+
+
+
+
+     div {
+
+      img {
+        width: 260px;
+        height: 240px;
+      }
+    }
+  }
+}
