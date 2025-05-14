@@ -358,6 +358,7 @@ footer .box-footer1 .card-3 .box-4 .bxl-instagram:hover {
     justify-content: center;
     align-items: center;
     padding: 0 20px 0 20px;
+    margin-left: 60px;
   }
   header img {
     width: 65px;
@@ -398,9 +399,33 @@ footer .box-footer1 .card-3 .box-4 .bxl-instagram:hover {
     height: 39px;
     margin-left: 18px;
     border-radius: 5px;
+    margin-bottom: 180px;
   }
   main div img {
     width: 260px;
     height: 240px;
+  }
+  .section2 {
+    width: 290px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/bg-curve-mobile.svg);
+  }
+  .section2 .container-all {
+    width: 290px;
+    display: flex;
+    margin: 20px;
+  }
+  .section2 div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .section2 div img {
+    width: 50px;
+    height: 50px;
+  }
+  .section2 h1 {
+    font-size: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
