@@ -536,7 +536,6 @@ footer {
     display: flex;
     flex-direction: column;
 
-
     background-image: url(../images/bg-curve-mobile.svg);
 
     .container-all {
@@ -544,11 +543,10 @@ footer {
       display: flex;
 
       margin: 20px;
-     
     }
 
 
-    div {
+    .card-imagee {
       display: flex;
       flex-direction: column-reverse;
 

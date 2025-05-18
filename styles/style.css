@@ -417,11 +417,11 @@ footer .box-footer1 .card-3 .box-4 .bxl-instagram:hover {
     display: flex;
     margin: 20px;
   }
-  .section2 div {
+  .section2 .card-imagee {
     display: flex;
     flex-direction: column-reverse;
   }
-  .section2 div img {
+  .section2 .card-imagee img {
     width: 50px;
     height: 50px;
   }
