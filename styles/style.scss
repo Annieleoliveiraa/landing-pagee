@@ -451,6 +451,8 @@ footer {
 
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 
     padding: 0 20px 0 20px;
 
@@ -536,13 +538,16 @@ footer {
     display: flex;
     flex-direction: column;
 
+    justify-content: center;
+    align-items: center;
+
     background-image: url(../images/bg-curve-mobile.svg);
 
     .container-all {
       width: 290px;
       display: flex;
 
-      margin: 20px;
+     
     }
 
 
@@ -557,8 +562,9 @@ footer {
     }
 
 
-    h1 {
-      font-size: 10px;
+    h2 {
+      font-size: 15px;
+      text-align: center;
     }
   }
 
