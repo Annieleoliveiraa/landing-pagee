@@ -408,28 +408,96 @@ footer .box-footer1 .card-3 .box-4 .bxl-instagram:hover {
     height: 240px;
   }
   .section2 {
-    width: 290px;
-    min-height: 50px;
+    width: 100%;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(../images/bg-curve-mobile.svg);
   }
-  .section2 .container-all {
-    width: 290px;
-    display: flex;
+  .section2 h2 {
+    margin-top: 100px;
+    font-size: 15px;
+    text-align: center;
   }
-  .section2 .card-imagee {
+  .section2 .container-all {
+    width: 100%;
+    max-width: 290px;
     display: flex;
     flex-direction: column-reverse;
   }
-  .section2 .card-imagee img {
-    width: 50px;
-    height: 50px;
+  .section2 .container-all .card-imagee {
+    display: flex;
+    justify-content: center;
   }
-  .section2 h2 {
-    font-size: 15px;
+  .section2 .container-all .card-imagee img {
+    width: 150px;
+    height: 200px;
+    margin-top: 20px;
+  }
+  .section2 .container-all .text1, .section2 .container-all .text2 {
+    width: 250px;
+  }
+  .section2 .container-all .card-text-green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section2 .container-all .card-line {
+    max-width: 170px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .section2 .container-all .box-info {
+    max-width: 200px;
+    min-height: 40px;
+  }
+  .section2 .container-all .box-info .img-citacao {
+    font-size: 20px;
+  }
+  .section2 .container-all .box-info .text-box {
+    width: 140px;
+    height: 80px;
+    font-size: 14px;
+  }
+  .section3 {
+    max-width: 330px;
+    height: 400px;
+    padding-bottom: 100px;
+  }
+  .section3 h2 {
+    width: 250px;
     text-align: center;
+    font-size: 22px;
+  }
+  .section3 .card-all {
+    display: flex;
+    flex-direction: column;
+  }
+  .section3 .card-all .card-1 p {
+    width: 310px;
+    text-align: center;
+  }
+  .section3 .card-all .card-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 40px;
+  }
+  .section3 .card-all .card-2 input {
+    width: 240px;
+    height: 35px;
+    border: none;
+  }
+  .section3 .card-all .card-2 button {
+    width: 255px;
+    height: 38px;
+    font-size: 14px;
+  }
+  footer {
+    max-width: 330px;
+    height: 400px;
   }
 }/*# sourceMappingURL=style.css.map */
