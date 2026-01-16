@@ -454,10 +454,6 @@ footer {
   }
    
   header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
 
     img {
       width: 65px;
@@ -468,11 +464,10 @@ footer {
   nav {
      
     a {
-      font-size: 13px;
+      font-size: 10px;
     }
   }
 
- // PARTE PRINCIPAL - ADEQUAMENTO DE TELAS MENORES 
   main {
     display: flex;
     flex-direction: column-reverse;
@@ -521,142 +516,11 @@ footer {
       }
     }
 
-
      div {
-
       img {
         width: 260px;
         height: 240px;
       }
     }
   }
-
-
-  .section2 {
-    width: 100%;
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
-
-    background-image: url(../images/bg-curve-mobile.svg);
-
-
-    h2 {
-      margin-top: 100px;
-      font-size: 15px;
-      text-align: center;
-    }
-
-
-    .container-all {
-      width: 100%;
-      max-width: 290px;
-      display: flex;
-      flex-direction: column-reverse;
-    
-
-      
-    .card-imagee {
-      display: flex;
-      justify-content: center;
-
-
-      img {
-        width: 150px;
-        height: 200px;
-
-        margin-top: 20px;
-      }
-    }
-
-    .text1, .text2 {
-      width: 250px;
-    }
-
-    .card-text-green {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .card-line {
-      max-width: 170px;
-      display: flex;
-      
-      margin-right: auto;
-      margin-left: auto;
-    }
-
-    .box-info {
-      max-width: 200px;
-      min-height: 40px;
-
-      .img-citacao {
-        font-size: 20px;
-      }
-
-      .text-box {
-        width: 140px;
-        height: 80px;
-        font-size: 14px;
-      }
-    }
-  }
-}
-
-
-.section3 {
-  max-width: 350px;
-  height: 400px;
-  padding-bottom: 100px;
-
-  h2 {
-    width: 250px;
-    text-align: center;
-    font-size: 22px;
-  }
-
-  .card-all {
-    display: flex;
-    flex-direction: column;
-
-    .card-1 {
-       p {
-        width: 310px;
-        text-align: center;
-      }
-    }
-
-    .card-2 {
-      display: flex;
-      flex-direction: column;
-      margin-left: 25px;
-     
-      margin-top: 40px;
-
-
-      input {
-        width: 240px;
-        height: 35px;
-
-        border: none;
-      }
-
-      button {
-        width: 255px;
-        height: 38px;
-
-        font-size: 14px;
-      }
-    }
-  }
-}
-
-footer {
-    max-width: 350px;
-    height: 400px;
-}
 }
